@@ -1,0 +1,11 @@
+[package]
+name = "multi_sig_wallet"
+version = "0.0.1"
+
+
+[addresses]
+# This should be your address on the Aptos blockchain
+default = "0x354d9d144f0e0150e62ac8bc56cfbbcde193f2860bfcfe2e6a229e95df4c39c1"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "devnet" }
